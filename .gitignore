@@ -1,0 +1,10 @@
+.DS_Store
+error_log
+php-log
+*.log
+desktop.ini
+
+/vendor/
+*.lock
+
+.idea

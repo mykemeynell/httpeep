@@ -1,0 +1,39 @@
+{
+    "name": "mykehowells/httpeep",
+    "description": "PHP HTTP client for API endpoint/resource requests",
+    "type": "library",
+    "keywords": ["http","request", "client", "php", "api", "rest", "httpeep", "response"],
+    "homepage": "https://github.com/mykehowells/HttPeep",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Myke Howells",
+            "email": "myke@mykeand.co",
+            "homepage": "http://mykehowells.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "files": [
+	        "API.class.php",
+	        "Client.class.php",
+	        "Exception/ExceptionController.class.php",
+	        "Exception/ClientException.class.php",
+	        "Exception/ParserException.class.php",
+	        "Exception/RequestException.class.php",
+	        "Request/RequestController.class.php",
+	        "Request/Delete.class.php",
+	        "Request/Get.class.php",
+	        "Request/Post.class.php",
+	        "Request/Put.class.php",
+	        "Parser/ParserController.class.php",
+	        "Parser/DeleteParser.class.php",
+	        "Parser/GetParser.class.php",
+	        "Parser/PostParser.class.php",
+	        "Parser/PutParser.class.php"
+        ]
+    }
+}
